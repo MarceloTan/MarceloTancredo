@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário sem CSS</h1>
+    <br>
+    <form action="" method="get">
+        Digite seu nome:<input type="text" name="nome" placeholder="                nome">
+       <br>
+       <br>
+        Digite sua senha:<input type="password" name="senha" placeholder="               senha">
+        <br>
+        <br>
+            <legend>Idade</legend>
+            <select name="idade" id="">
+                <option value="18">Abaixo de 18</option>
+                <option value="18-30">Entre 18 e 30</option>
+                <option value="30">Acima de 30</option>
+            </select>
+            <br><br>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="esporte" value="fut">Futebol
+            <input type="checkbox" name="esporte" value="basquete">Basquete
+            <input type="checkbox" name="esporte" value="natacao">Natação
+            <input type="checkbox" name="esporte" value="judo">Judô
+            <input type="checkbox" name="esporte" value="tenis">Tenis
+            <input type="checkbox" name="esporte" value="surf">surf
+            <input type="checkbox" name="esporte" value="outros">Outros
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Time de Futebol</legend>
+            <input type="radio" name="time" value="fla">Flamengo
+            <input type="radio" name="time" value="flu">Fluminense   
+            <input type="radio" name="time" value="vasco">Vasco 
+            <input type="radio" name="time" value="botafogo">Botafogo
+            <input type="radio" name="time" value="outro">Outro
+        </fieldset>
+        <br> 
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
